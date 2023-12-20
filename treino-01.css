@@ -1,0 +1,47 @@
+html{
+    background-color: rgb(126, 125, 125);
+    height: 100%;
+
+}
+
+
+body{
+    margin:0px; /* define o espaçamento o externo*/
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav-lista-item{
+
+}
+
+.nav{
+    background-color: rgb(87, 87, 87); /*define a cor de fundo */
+}
+
+
+
+.lista-nav{
+    display: flex; /*ELE DEIXA OS ELEMENTOS DENTRO DO GRUPO PAI, FLEXÍVEIS */
+    list-style:none; /* TIRA A DECORAÇÃO DOS ITENS DA LISTA*/
+    color:white;
+    padding: 10px 0px; /*coloca espaçamento interno cima*/
+    margin: 0px; /*retira os espaçamento externo*/
+    justify-content: space-around; /* define o espaçamento*/
+    font-size: 20px;/* altera o tamanho da fonte*/
+    font-weight: bold;/* altera o preso da letra*/
+}
+
+.titulo-site{
+    text-align: center; /*centraliza o texto na página*/
+}
+
+footer{
+    background-color: rgb(87, 87, 87);
+    text-align: center;
+    color:white;
+    padding: 10px 0px;
+}

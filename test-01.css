@@ -1,0 +1,16 @@
+.lista-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px 0px;
+    justify-content: space-around;
+
+
+}
+
+.nav{
+    background-color: rgb(87, 87, 87); 
+    
+}
